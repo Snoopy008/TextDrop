@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AACC6C41D260C28001E43DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AACC6C31D260C28001E43DA /* main.m */; };
+		4AACC6C71D260C28001E43DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AACC6C61D260C28001E43DA /* AppDelegate.m */; };
+		4AACC6CA1D260C28001E43DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AACC6C91D260C28001E43DA /* ViewController.m */; };
+		4AACC6CD1D260C28001E43DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AACC6CB1D260C28001E43DA /* Main.storyboard */; };
+		4AACC6CF1D260C28001E43DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AACC6CE1D260C28001E43DA /* Assets.xcassets */; };
+		4AACC6D21D260C28001E43DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AACC6D01D260C28001E43DA /* LaunchScreen.storyboard */; };
+		4AACC6DD1D260C28001E43DA /* TextDropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AACC6DC1D260C28001E43DA /* TextDropTests.m */; };
+		4AACC6E81D260C28001E43DA /* TextDropUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AACC6E71D260C28001E43DA /* TextDropUITests.m */; };
+		4AACC6F71D2611AB001E43DA /* GCMDropList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AACC6F61D2611AB001E43DA /* GCMDropList.m */; };
+		4AACC6FA1D261560001E43DA /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AACC6F91D261560001E43DA /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AACC6D91D260C28001E43DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AACC6B71D260C28001E43DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AACC6BE1D260C28001E43DA;
+			remoteInfo = TextDrop;
+		};
+		4AACC6E41D260C28001E43DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AACC6B71D260C28001E43DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AACC6BE1D260C28001E43DA;
+			remoteInfo = TextDrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AACC6BF1D260C28001E43DA /* TextDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AACC6C31D260C28001E43DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AACC6C51D260C28001E43DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AACC6C61D260C28001E43DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AACC6C81D260C28001E43DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AACC6C91D260C28001E43DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4AACC6CC1D260C28001E43DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AACC6CE1D260C28001E43DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AACC6D11D260C28001E43DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AACC6D31D260C28001E43DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AACC6D81D260C28001E43DA /* TextDropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextDropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AACC6DC1D260C28001E43DA /* TextDropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextDropTests.m; sourceTree = "<group>"; };
+		4AACC6DE1D260C28001E43DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AACC6E31D260C28001E43DA /* TextDropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextDropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AACC6E71D260C28001E43DA /* TextDropUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextDropUITests.m; sourceTree = "<group>"; };
+		4AACC6E91D260C28001E43DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AACC6F51D2611AB001E43DA /* GCMDropList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCMDropList.h; sourceTree = "<group>"; };
+		4AACC6F61D2611AB001E43DA /* GCMDropList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCMDropList.m; sourceTree = "<group>"; };
+		4AACC6F81D261560001E43DA /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		4AACC6F91D261560001E43DA /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AACC6BC1D260C28001E43DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AACC6D51D260C28001E43DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AACC6E01D260C28001E43DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AACC6B61D260C28001E43DA = {
+			isa = PBXGroup;
+			children = (
+				4AACC6C11D260C28001E43DA /* TextDrop */,
+				4AACC6DB1D260C28001E43DA /* TextDropTests */,
+				4AACC6E61D260C28001E43DA /* TextDropUITests */,
+				4AACC6C01D260C28001E43DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AACC6C01D260C28001E43DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AACC6BF1D260C28001E43DA /* TextDrop.app */,
+				4AACC6D81D260C28001E43DA /* TextDropTests.xctest */,
+				4AACC6E31D260C28001E43DA /* TextDropUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AACC6C11D260C28001E43DA /* TextDrop */ = {
+			isa = PBXGroup;
+			children = (
+				4AACC6C51D260C28001E43DA /* AppDelegate.h */,
+				4AACC6F81D261560001E43DA /* UIView+Extension.h */,
+				4AACC6F91D261560001E43DA /* UIView+Extension.m */,
+				4AACC6C61D260C28001E43DA /* AppDelegate.m */,
+				4AACC6C81D260C28001E43DA /* ViewController.h */,
+				4AACC6C91D260C28001E43DA /* ViewController.m */,
+				4AACC6F51D2611AB001E43DA /* GCMDropList.h */,
+				4AACC6F61D2611AB001E43DA /* GCMDropList.m */,
+				4AACC6CB1D260C28001E43DA /* Main.storyboard */,
+				4AACC6CE1D260C28001E43DA /* Assets.xcassets */,
+				4AACC6D01D260C28001E43DA /* LaunchScreen.storyboard */,
+				4AACC6D31D260C28001E43DA /* Info.plist */,
+				4AACC6C21D260C28001E43DA /* Supporting Files */,
+			);
+			path = TextDrop;
+			sourceTree = "<group>";
+		};
+		4AACC6C21D260C28001E43DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AACC6C31D260C28001E43DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AACC6DB1D260C28001E43DA /* TextDropTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AACC6DC1D260C28001E43DA /* TextDropTests.m */,
+				4AACC6DE1D260C28001E43DA /* Info.plist */,
+			);
+			path = TextDropTests;
+			sourceTree = "<group>";
+		};
+		4AACC6E61D260C28001E43DA /* TextDropUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AACC6E71D260C28001E43DA /* TextDropUITests.m */,
+				4AACC6E91D260C28001E43DA /* Info.plist */,
+			);
+			path = TextDropUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AACC6BE1D260C28001E43DA /* TextDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AACC6EC1D260C28001E43DA /* Build configuration list for PBXNativeTarget "TextDrop" */;
+			buildPhases = (
+				4AACC6BB1D260C28001E43DA /* Sources */,
+				4AACC6BC1D260C28001E43DA /* Frameworks */,
+				4AACC6BD1D260C28001E43DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextDrop;
+			productName = TextDrop;
+			productReference = 4AACC6BF1D260C28001E43DA /* TextDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AACC6D71D260C28001E43DA /* TextDropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AACC6EF1D260C28001E43DA /* Build configuration list for PBXNativeTarget "TextDropTests" */;
+			buildPhases = (
+				4AACC6D41D260C28001E43DA /* Sources */,
+				4AACC6D51D260C28001E43DA /* Frameworks */,
+				4AACC6D61D260C28001E43DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AACC6DA1D260C28001E43DA /* PBXTargetDependency */,
+			);
+			name = TextDropTests;
+			productName = TextDropTests;
+			productReference = 4AACC6D81D260C28001E43DA /* TextDropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AACC6E21D260C28001E43DA /* TextDropUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AACC6F21D260C28001E43DA /* Build configuration list for PBXNativeTarget "TextDropUITests" */;
+			buildPhases = (
+				4AACC6DF1D260C28001E43DA /* Sources */,
+				4AACC6E01D260C28001E43DA /* Frameworks */,
+				4AACC6E11D260C28001E43DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AACC6E51D260C28001E43DA /* PBXTargetDependency */,
+			);
+			name = TextDropUITests;
+			productName = TextDropUITests;
+			productReference = 4AACC6E31D260C28001E43DA /* TextDropUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AACC6B71D260C28001E43DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Snoopy;
+				TargetAttributes = {
+					4AACC6BE1D260C28001E43DA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = X5WRLK634K;
+					};
+					4AACC6D71D260C28001E43DA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = X5WRLK634K;
+						TestTargetID = 4AACC6BE1D260C28001E43DA;
+					};
+					4AACC6E21D260C28001E43DA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = X5WRLK634K;
+						TestTargetID = 4AACC6BE1D260C28001E43DA;
+					};
+				};
+			};
+			buildConfigurationList = 4AACC6BA1D260C28001E43DA /* Build configuration list for PBXProject "TextDrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AACC6B61D260C28001E43DA;
+			productRefGroup = 4AACC6C01D260C28001E43DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AACC6BE1D260C28001E43DA /* TextDrop */,
+				4AACC6D71D260C28001E43DA /* TextDropTests */,
+				4AACC6E21D260C28001E43DA /* TextDropUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AACC6BD1D260C28001E43DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AACC6D21D260C28001E43DA /* LaunchScreen.storyboard in Resources */,
+				4AACC6CF1D260C28001E43DA /* Assets.xcassets in Resources */,
+				4AACC6CD1D260C28001E43DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AACC6D61D260C28001E43DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AACC6E11D260C28001E43DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AACC6BB1D260C28001E43DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AACC6FA1D261560001E43DA /* UIView+Extension.m in Sources */,
+				4AACC6F71D2611AB001E43DA /* GCMDropList.m in Sources */,
+				4AACC6CA1D260C28001E43DA /* ViewController.m in Sources */,
+				4AACC6C71D260C28001E43DA /* AppDelegate.m in Sources */,
+				4AACC6C41D260C28001E43DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AACC6D41D260C28001E43DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AACC6DD1D260C28001E43DA /* TextDropTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AACC6DF1D260C28001E43DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AACC6E81D260C28001E43DA /* TextDropUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AACC6DA1D260C28001E43DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AACC6BE1D260C28001E43DA /* TextDrop */;
+			targetProxy = 4AACC6D91D260C28001E43DA /* PBXContainerItemProxy */;
+		};
+		4AACC6E51D260C28001E43DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AACC6BE1D260C28001E43DA /* TextDrop */;
+			targetProxy = 4AACC6E41D260C28001E43DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AACC6CB1D260C28001E43DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AACC6CC1D260C28001E43DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AACC6D01D260C28001E43DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AACC6D11D260C28001E43DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AACC6EA1D260C28001E43DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AACC6EB1D260C28001E43DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AACC6ED1D260C28001E43DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextDrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vilang.TextDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AACC6EE1D260C28001E43DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextDrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vilang.TextDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4AACC6F01D260C28001E43DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TextDropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vilang.TextDropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextDrop.app/TextDrop";
+			};
+			name = Debug;
+		};
+		4AACC6F11D260C28001E43DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TextDropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vilang.TextDropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextDrop.app/TextDrop";
+			};
+			name = Release;
+		};
+		4AACC6F31D260C28001E43DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TextDropUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vilang.TextDropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TextDrop;
+			};
+			name = Debug;
+		};
+		4AACC6F41D260C28001E43DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TextDropUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vilang.TextDropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TextDrop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AACC6BA1D260C28001E43DA /* Build configuration list for PBXProject "TextDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AACC6EA1D260C28001E43DA /* Debug */,
+				4AACC6EB1D260C28001E43DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AACC6EC1D260C28001E43DA /* Build configuration list for PBXNativeTarget "TextDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AACC6ED1D260C28001E43DA /* Debug */,
+				4AACC6EE1D260C28001E43DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4AACC6EF1D260C28001E43DA /* Build configuration list for PBXNativeTarget "TextDropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AACC6F01D260C28001E43DA /* Debug */,
+				4AACC6F11D260C28001E43DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4AACC6F21D260C28001E43DA /* Build configuration list for PBXNativeTarget "TextDropUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AACC6F31D260C28001E43DA /* Debug */,
+				4AACC6F41D260C28001E43DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AACC6B71D260C28001E43DA /* Project object */;
+}
